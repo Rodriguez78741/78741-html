@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Ejercicio 1 HTML</h1>
+      <h3>
+        Ejercicio análisis de un documento html con las herramientas del
+        navegador Chrome.
+      </h3>
+      <h4>
+        Analice la página web del sitio www.frc.utn.edu.ar con Chrome devtools
+      </h4>
+      <h5>Responda las siguientes preguntas:</h5>
+      <p>
+        1) ¿Cuantos Kilobytes se transfieren al navegador para visualizar la
+        página de manera completa? Cuanto tiempo demora en cargar la página. Si
+        se utiliza el caché del navegador, demora lo mismo?<br /><br />
+        Se transfieren 1.4 MB y demora 4.5 seg en cargar, pero con el cache
+        activado demora 3.66 seg.<br /><br />
+
+        2) ¿La página posee errores o warnings?<br /><br />
+        No, la pagina no posee ningun error, con la excepcion de que al usar
+        Adblock salta el error de carga de pblicidad "Failed to load resource:
+        net::ERR_BLOCKED_BY_CLIENT"<br /><br />
+
+        3) ¿Cuál es el archivo que demora mas tiempo en descargarse de la
+        página<br /><br />
+        El documento de www.frc.utn.edu.ar es el que mas trada con una duracion
+        de 3 seg.<br /><br />
+
+        4) ¿Todos los archivos provienen del mismo servidor?<br /><br />
+        No, algunos vienen de Youtube por ejemplo<br /><br />
+
+        5) ¿Cuántas imágenes posee?, qué tiempo que demora en descargarlas?
+        ¿Cual es el imagen de mayor tamaño en kilobytes que se descarga del
+        sitio?<br /><br />
+        Contiene 69 imagenes, tarda 3.96 seg en cargarlas sin cache, y la mas
+        grande es la imagen logo de CISCO ORACLE con un tamaño de 20.5 kB<br /><br />
+
+        6) ¿Cuántos archivos de hojas de estilo utiliza?<br /><br />
+        Utiliza 4 archivos de StyleSheet<br /><br />
+
+        7) En qué versión de html indica el documento que está realizada la
+        página<br /><br />
+        Esta usalndo XHTML 1.0 Transitional<br /><br />
+
+        8) ¿Los archivos javascript y/o css están minificados?<br /><br />
+        Si, porque tienen el .min<br /><br />
+
+        9) ¿Qué tiempo demoraría la página en descargar en un equipo con señal
+        de datos de una red Regular 3G?<br /><br />
+        Con la opcion de Fast 3G y el cache desactivado tarda 10.55 seg,
+        mientras que con la opcion de Slow 3G tarda 35.83 seg<br /><br />
+
+        10) La página es compatible con el estándar html indicado en la
+        cabecera. Analice la misma en https://validator.w3.org/<br /><br />
+        No, no es compatible y se detectan 23 errores<br /><br />
+
+        11) Analice las recomendaciones para mejorar la velocidad de carga de la
+        página en https://developers.google.com/speed/pagespeed/<br /><br />
+        Se pueden observar recomendaciones como reducir el contenido JavaScript
+        que no se usa y reducir el tiempo de respuesta inicial del servidor<br /><br />
+
+        12) Realice el mismo análisis con el sitio www.cba.gob.ar<br /><br />
+        La pagina del gobierno presenta un peor rendimiento en cuanto a
+        velocidad de carga, y algunas de las recomendaciones obtenidas son
+        habilitar la compresion de texto o reducir la cantidad de contenido de
+        css que no se usa.
+      </p>
+    </main>
+  </body>
+</html>
